@@ -1,0 +1,13 @@
+spring:
+  application:
+    #El nombre de configuracion que va a buscar en el git
+    name: myvalue
+  profiles:
+    active:    - produccion
+    #- test
+    #Comentar el hasta el profiles o bien dejar el active
+    #en blanco para que cargue el sin perfil
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8888
