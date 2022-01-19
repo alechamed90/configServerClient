@@ -1,0 +1,2 @@
+Ejecutar en un terminal para reiniciar el micro:
+curl -x POST http://localhost:8080/actuator/refresh
